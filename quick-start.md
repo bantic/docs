@@ -18,7 +18,7 @@ $> npx asinit .
 
 The `asinit` command automatically creates the recommended directory structure and configuration files, including:
 
-* The `assembly/` directory containing the sources being compiled to WebAssembly, with a `tsconfig.json` telling your editor about AssemblyScript's standard library along an exemplary `index.ts` .
+* The `assembly/` directory containing the sources being compiled to WebAssembly, with a `tsconfig.json` telling your editor about AssemblyScript's standard library along with an exemplary `index.ts` .
 * The `build/` directory where compiled WebAssembly binaries, source maps, definition files etc. become placed.
 * A `package.json` with AssemblyScript as a development dependency and build tasks to compile both an untouched \(as emitted by the AssemblyScript compiler\) and an optimized \(using Binaryen\) version of your program in both binary and text format.
 
